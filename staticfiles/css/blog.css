@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+h1 a, h2 a {
+    color: #C25100; 
+}
+
+.page-header {
+    background-color: #1a1511;
+    margin-top: 0;
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 5vh;
+    text-decoration: none;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 3vh;
+    margin-top: 2%;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 15%;
+}
+
+h1, h2, h3, h4, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+    background-color: #1A1511;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+    padding: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+    font-size: 3vh;
+}
+
+.post p {
+    font-size: 2vh;
+}
+
+hr {
+    width: 60%;
+    height: 1px;
+    color: #D0D7DE;
+    background-color: #D0D7DE;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding: 20px 0 20px 0;
+}
+
+.social {
+    display: flex;
+    gap: 20%;
+}
+
+
+footer {
+    margin-top: 15%;
+}
